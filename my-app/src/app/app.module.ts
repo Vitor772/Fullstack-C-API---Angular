@@ -15,13 +15,16 @@ import { InspectionApiService } from './inspection-api.service';
     AppComponent,
     InspectionComponent,
     ShowInspectionComponent,
-    AddEditInspectionComponent
+    AddEditInspectionComponent,
+
+    
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
-    AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    
   ],
   providers: [InspectionApiService],
   bootstrap: [AppComponent]
